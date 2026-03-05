@@ -4,7 +4,7 @@ sys.path.insert(0, '.')
 import smplx
 
 device = torch.device('cuda:0')
-model = smplx.create('./phase0', model_type='smplx', gender='neutral',
+model = smplx.create('./temporal-dev/phase0', model_type='smplx', gender='neutral',
                      num_betas=10, use_pca=False, flat_hand_mean=True).to(device)
 model.eval()
 with torch.no_grad():

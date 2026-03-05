@@ -17,7 +17,7 @@ NUM_SAMPLES = 3
 
 BEDLAM_NPZ = "/home/marco/Desktop/BD_data/training_labels/all_npz_12_training/20221010_3-10_500_batch01hand_zoom_suburb_d_6fps.npz"
 IMAGE_ROOT = "/home/marco/Desktop/BD_data/training_images/20221010_3-10_500_batch01hand_zoom_suburb_d_6fps/png"
-SMPLX_MODEL = "/home/marco/Desktop/SportsMotion/dev/sam-3d-body/phase0"
+SMPLX_MODEL = "/home/marco/Desktop/SportsMotion/dev/sam-3d-body/temporal-dev/phase0"
 SAM3D_CKPT = "/home/marco/Desktop/SportsMotion/dev/models/sam3d_body/model.ckpt"
 MHR_MODEL = "/home/marco/Desktop/SportsMotion/dev/models/sam3d_body/mhr_model.pt"
 OUTPUT_DIR = "/home/marco/Desktop/BD_data/test_output/vis"
